@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { NavItem } from "./types";
+import type { NavItem } from "./types";
 import { cn } from "@/lib/utils";
 
 type MenuItemProps = {

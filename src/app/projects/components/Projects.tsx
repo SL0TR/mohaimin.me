@@ -5,7 +5,6 @@ import FilterSearch from "./FilterSearch";
 import Project3DCard from "./Project3DCard";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import ProjectDialog from "./ProjectDialog";
-import { projects } from "@/app/experience/projects";
 
 export default function Projects() {
   const { filteredProjects } = useFilteredProjects();

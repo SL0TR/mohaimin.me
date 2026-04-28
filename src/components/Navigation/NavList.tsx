@@ -1,4 +1,4 @@
-import { NavList, RenderMenuItem } from "./types";
+import type { NavList, RenderMenuItem } from "./types";
 
 type MenuItemsProps<T> = {
   items: T[];

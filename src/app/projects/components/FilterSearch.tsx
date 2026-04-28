@@ -16,7 +16,7 @@ export default function FilterSearch() {
   };
 
   useEffect(() => {
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams(searchParams.toString());
     if (debouncedValue) {
       params.set("query", debouncedValue);
     } else {
