@@ -8,10 +8,6 @@ export const navOptions = [
     link: "/about-me",
   },
   {
-    name: "_experience",
-    link: "/experience",
-  },
-  {
     name: "_projects",
     link: "/projects",
   },

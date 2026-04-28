@@ -1,5 +1,5 @@
 import { ContactFormValues } from "@/app/contact/type";
-import { projects } from "@/app/experience/projects";
+import { projects } from "./projects";
 import { type ClassValue, clsx } from "clsx";
 import { SimpleIcon, renderSimpleIcon } from "react-icon-cloud";
 import { twMerge } from "tailwind-merge";

@@ -1,4 +1,4 @@
-import { projects } from "@/app/experience/projects";
+import { projects } from "@/lib/projects";
 import { useSearchParams } from "next/navigation";
 import { Employer } from "@/enums";
 import { useEffect, useState } from "react";

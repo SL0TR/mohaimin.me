@@ -4,7 +4,7 @@ import {
   TechStack,
   Employer,
 } from "@/enums";
-import { Project } from "../types";
+import { Project } from "../app/types";
 import allezThumb from "@/assets/allez.png";
 import shopHobeThumb from "@/assets/shophobe.png";
 import dropshopThumb from "@/assets/dropshop.png";

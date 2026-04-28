@@ -17,23 +17,6 @@ export default function Summary() {
           </p>
         </div>
       ))}
-      <div className="w-full">
-        <p className="text-amber-600 2xl:text-lg text-sm">
-          <span className="text-indigo-400">const </span>
-          <span className="text-indigo-500 lg:hidden">experience</span>
-          <span className="text-indigo-500 hidden lg:inline">
-            experienceUrl
-          </span>
-          <span className="text-indigo-400 dark:font-thin "> = </span>`
-          <span className="font-thin underline break-words 2xl:text-lg md:text-sm text-xs">
-            <Link href="/experience" passHref>
-              www.mohaimin.me/experience
-            </Link>
-            `
-          </span>
-          <span className="dark:text-indigo-200 text-indigo-400 ">;</span>
-        </p>
-      </div>
       <div className="h-[100px]" />
     </ScrollArea>
   );
